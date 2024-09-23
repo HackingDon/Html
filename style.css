@@ -309,9 +309,18 @@ h5 {
   margin-bottom: 10px;
   overflow-y: hidden;
 }
+.ven1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .venimg {
-  width: 346px;
+  width: 100%;
   height: 170px;
+}
+.veni{
+  width: 300px;
+  padding-left: 30px;
 }
 #par {
   font-size: 13px;
@@ -320,7 +329,7 @@ h5 {
 }
 .footer {
   margin-top: 100px;
-  width: 100vw;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -330,7 +339,7 @@ h5 {
 .input {
   background-color: white;
   width: 100%;
-  height: 200px;
+  height: fit-content;
   color: black;
   padding: 10px;
 }
@@ -439,7 +448,7 @@ h5 {
 }
 .end {
   height: 100px;
-  width: 100vw;
+  width: 100%;
   background-color: darkgreen;
   display: flex;
   align-items: center;
@@ -498,7 +507,7 @@ h5 {
     height: 150px;
     width: 270px;
     padding: 5px 5px 0px 5px;
-    margin-top: -5px;
+    margin-top: -7px;
     margin-left: 1px;
   }
   #fetimg {
@@ -512,6 +521,9 @@ h5 {
   }
   .body-con {
     width: 370px;
+  }
+  .details{
+    gap: 10px;
   }
   .ic {
     display: block !important;
@@ -549,3 +561,119 @@ h5 {
     height: 370px;
   }
 }
+@media screen and (max-width:740px){
+  .content2 {
+    width: 395px;
+  }
+  #nav{
+    display: none;
+  }
+  .search{
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+  .search input{
+    border-radius: 6px;
+  }
+  .ser{
+    width: 100%;
+    font-weight: 400;
+    border-radius: 6px;
+    margin-right: 0px;
+  }
+  .ser1{
+    font-weight: 400;
+    font-size: 15px;
+  }
+  .con-img{
+    display: block;
+  }
+  .fetimg{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .ind1{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .ind4{
+    width: 100%;
+  }
+  .ind6{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .ind5{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .ind3{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .fetcon{
+    width: 100%;
+  }
+  #fetimg{
+      height: 200px;
+      width: 100%;
+  }
+  .fetimg1{
+    height: 150px;
+    width: 100%;
+  }
+  .vendors{
+    flex-direction: column;
+  }
+  .ven{
+    width: 100%;
+  }
+  .veni{
+    height: 200px;
+    padding-left: 0px;
+  }
+ .in1{
+  flex-direction: column;
+ }
+ .in2{
+  width: 100%;
+  height: 35px;
+ }
+ .su{
+  height: 35px;
+  width: 120px;
+ }
+ .details{
+  flex-direction: column;
+ }
+ .end{
+  font-size: 12px;
+ }
+ .contact{
+  width: 100%;
+ }
+ .foot h1{
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+ }
+ .foot p{
+  font-size: 16px;
+  text-align: center;
+ }
+}
+@media screen and (max-width:395px){
+  .content2{
+    width:340px;
+  }
+}
+@media screen and (max-width:340px){
+  .content2{
+    width:300px;
+  }
+  .end{
+    text-align: center;
+  }
+}
+
